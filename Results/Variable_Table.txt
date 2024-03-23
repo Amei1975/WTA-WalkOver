@@ -1,0 +1,67 @@
+ pos variable         label                                                                            col_type missing values                       
+ 1   tourney_category Tourney Category                                                                 fct      0       ITF Women's World Tennis Tour
+                                                                                                                        WTA 125 Tournaments          
+                                                                                                                        WTA Tour                     
+ 2   tourney_level    Tourney Level                                                                    fct      0       Grand Slams                  
+                                                                                                                        Premier                      
+                                                                                                                        Premier Mandatory            
+                                                                                                                        C10                          
+                                                                                                                        C100                         
+                                                                                                                        C125                         
+                                                                                                                        C20                          
+                                                                                                                        C25                          
+                                                                                                                        C50                          
+                                                                                                                        C75                          
+                                                                                                                        Satellite                    
+                                                                                                                        Challenger                   
+                                                                                                                        Davis Cup                    
+                                                                                                                        International                
+                                                                                                                        Olympics                     
+                                                                                                                        Tier I                       
+                                                                                                                        Tier II                      
+                                                                                                                        Tier III                     
+                                                                                                                        Tier IV                      
+                                                                                                                        Tier V                       
+                                                                                                                        Historical                   
+ 3   tourney_id       Tourney ID                                                                       chr      0                                    
+ 4   tourney_name     Tourney Name                                                                     chr      0                                    
+ 5   year             —                                                                                dbl      0                                    
+ 6   surface          Tournament playing surface                                                       fct      0       Carpet                       
+                                                                                                                        Clay                         
+                                                                                                                        Grass                        
+                                                                                                                        Hard                         
+ 7   best_of          Number of sets necessary to win the tennis match                                 fct      0       Best of 3 sets               
+ 8   round_level      Match round level                                                                fct      0       Final Round                  
+                                                                                                                        Preliminary Round            
+                                                                                                                        Qualifying Round             
+ 9   round            Round Level                                                                      chr      0                                    
+ 10  score            Score of the match                                                               chr      0                                    
+ 11  games            Number of games in the match                                                     dbl      31                                   
+ 12  winner_name      Name of the winning tennis player of the match                                   chr      0                                    
+ 13  loser_name       Name of the losing tennis player of the match                                    chr      0                                    
+ 14  winner_hand      Hand of the winning tennis player of the match                                   fct      0       Left                         
+                                                                                                                        Right                        
+                                                                                                                        Unknown                      
+ 15  loser_hand       Hand of the losing tennis player of the match                                    fct      0       Left                         
+                                                                                                                        Right                        
+                                                                                                                        Unknown                      
+ 16  winner_age       Age of the winning tennis player of the match                                    dbl      3810                                 
+ 17  loser_age        Age of the losing tennis player of the match                                     dbl      3893                                 
+ 18  dif_age          Age difference between the winning and losing tennis players                     dbl      3906                                 
+ 19  sum_age          Sum of the ages of tennis players                                                dbl      3906                                 
+ 20  mean_age         Mean of the ages of tennis players                                               dbl      3827                                 
+ 21  winner_rank      Ranking position of the winning tennis player of the match                       int      35948                                
+ 22  loser_rank       Ranking position of the losing tennis player of the match                        int      63783                                
+ 23  dif_rank         Difference in ranking positions between the winning and the losing tennis player int      81002                                
+ 24  Match_Outcome    How the tennis match ends                                                        fct      0       Complete                     
+                                                                                                                        Default                      
+                                                                                                                        Retirement                   
+                                                                                                                        WalkOver                     
+ 25  Retirement       The tennis match ended due to the retirement of a tennis player                  fct      0       No Retirement                
+                                                                                                                        Retirement                   
+ 26  WalkOver         The tennis match was not played due to walkover                                  fct      0       No WalkOver                  
+                                                                                                                        WalkOver                     
+ 27  Default          The tennis match ended due to the default of a tennis player                     fct      0       No Default                   
+                                                                                                                        Default                      
+
+> sink()
